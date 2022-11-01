@@ -1,0 +1,8 @@
+{
+  "name": "yt-watch",
+  "version": "1.0.0",
+  "dependencies": {
+    "@googleapis/youtube": "^8.0.0"
+  },
+  "type": "module"
+}
