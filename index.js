@@ -73,6 +73,7 @@ async function update() {
     }
 }
 
+await mkdir('videos', {recursive: true});
 for (const channel of await readdir('videos')) {
     for (const video of await readdir(`videos/${channel}`)) {
         if ((await readdir(`videos/${channel}/${video}`)).filter(v => !v.endsWith('.part')).length < 2) {
