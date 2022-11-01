@@ -83,3 +83,10 @@ for (const channel of await readdir('videos')) {
 }
 
 await update();
+
+setInterval(() => {
+    update().catch(e => {
+        console.error(e);
+        process.exit(1);
+    })
+}, 5*60*1000);
