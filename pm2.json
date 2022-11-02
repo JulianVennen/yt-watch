@@ -1,6 +1,7 @@
 {
   "name": "yt-watch",
   "script": "index.js",
+  "watch": true,
   "ignore_watch": [
     "videos"
   ],
