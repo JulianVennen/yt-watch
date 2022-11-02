@@ -1,0 +1,8 @@
+{
+  "name": "yt-watch",
+  "script": "index.js",
+  "ignore_watch": [
+    "videos"
+  ],
+  "watch_delay": 10000
+}
